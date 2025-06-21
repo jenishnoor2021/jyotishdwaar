@@ -19,6 +19,12 @@
             @endforeach
         </div>
 
+        <div class="row mt-4">
+            <div class="col-sm-12" style="display:flex;justify-content:center;">
+                {{$albums->links('pagination::bootstrap-4')}}
+            </div>
+        </div>
+
     </div>
 </section><!-- End Services Section -->
 
