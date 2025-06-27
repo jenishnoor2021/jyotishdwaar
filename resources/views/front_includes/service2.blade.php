@@ -10,7 +10,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 col-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box iconbox-purple">
                 <div class="icon">
-                    <img src="{{asset('front_assets/img/services/horoscope.png')}}">
+                    <img src="{{asset('front_assets/img/services/horoscope.png')}}" loading="lazy">
                 </div>
                 <h4>Horoscope Analysis</h4>
             </div>
@@ -20,7 +20,7 @@
             data-aos-delay="100">
             <div class="icon-box iconbox-purple">
                 <div class="icon">
-                    <img src="{{asset('front_assets/img/services/pediatrics.png')}}">
+                    <img src="{{asset('front_assets/img/services/pediatrics.png')}}" loading="lazy">
                 </div>
                 <h4>Birth Chart Analysis</h4>
             </div>
@@ -30,7 +30,7 @@
             data-aos-delay="100">
             <div class="icon-box iconbox-purple">
                 <div class="icon">
-                    <img src="{{asset('front_assets/img/services/esoteric.png')}}">
+                    <img src="{{asset('front_assets/img/services/esoteric.png')}}" loading="lazy">
                 </div>
                 <h4>Kundali Matching</h4>
             </div>
@@ -40,7 +40,7 @@
             data-aos-delay="100">
             <div class="icon-box iconbox-purple">
                 <div class="icon">
-                    <img src="{{asset('front_assets/img/services/briefcase.png')}}">
+                    <img src="{{asset('front_assets/img/services/briefcase.png')}}" loading="lazy">
                 </div>
                 <h4>Career Problems</h4>
             </div>
@@ -50,7 +50,7 @@
             data-aos-delay="100">
             <div class="icon-box iconbox-purple">
                 <div class="icon">
-                    <img src="{{asset('front_assets/img/services/saving.png')}}">
+                    <img src="{{asset('front_assets/img/services/saving.png')}}" loading="lazy">
                 </div>
                 <h4>Financial Astrology</h4>
             </div>
@@ -60,7 +60,7 @@
             data-aos-delay="100">
             <div class="icon-box iconbox-purple">
                 <div class="icon">
-                    <img src="{{asset('front_assets/img/services/relationship.png')}}">
+                    <img src="{{asset('front_assets/img/services/relationship.png')}}" loading="lazy">
                 </div>
                 <h4>Relationship Astrology</h4>
             </div>
@@ -70,7 +70,7 @@
             data-aos-delay="100">
             <div class="icon-box iconbox-purple">
                 <div class="icon">
-                    <img src="{{asset('front_assets/img/services/protection.png')}}">
+                    <img src="{{asset('front_assets/img/services/protection.png')}}" loading="lazy">
                 </div>
                 <h4>Medical Astrology</h4>
             </div>
@@ -80,7 +80,7 @@
             data-aos-delay="100">
             <div class="icon-box iconbox-purple">
                 <div class="icon">
-                    <img src="{{asset('front_assets/img/services/chakras.png')}}">
+                    <img src="{{asset('front_assets/img/services/chakras.png')}}" loading="lazy">
                 </div>
                 <h4>Spiritual Astrology</h4>
             </div>
@@ -90,7 +90,7 @@
             data-aos-delay="100">
             <div class="icon-box iconbox-purple">
                 <div class="icon">
-                    <img src="{{asset('front_assets/img/services/speculate.png')}}">
+                    <img src="{{asset('front_assets/img/services/speculate.png')}}" loading="lazy">
                 </div>
                 <h4>Speculation Astrology</h4>
             </div>
@@ -100,7 +100,7 @@
             data-aos-delay="100">
             <div class="icon-box iconbox-purple">
                 <div class="icon">
-                    <img src="{{asset('front_assets/img/services/electoral-college.png')}}">
+                    <img src="{{asset('front_assets/img/services/electoral-college.png')}}" loading="lazy">
                 </div>
                 <h4>Electoral Astrology</h4>
             </div>
@@ -109,7 +109,7 @@
     </div>
 
     <div class="button">
-        <a class="custom-button mt-4 filled-bg" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <a class="custom-button mt-4 filled-bg" href="tel:{{ $company_contact }}">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px"
                 height="20px" viewBox="0 0 15 15" version="1.1">
 

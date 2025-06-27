@@ -13,12 +13,12 @@
             @foreach ($albums as $album)
             <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                 <div class="albums-item">
-                    <img src="{{ $album->file }}" height="100%" width="100%">
+                    <img src="{{ $album->file }}" height="100%" width="100%" loading="lazy">
                 </div>
             </div>
             @endforeach
         </div>
-
+        
         <div class="row mt-4">
             <div class="col-sm-12" style="display:flex;justify-content:center;">
                 {{$albums->links('pagination::bootstrap-4')}}

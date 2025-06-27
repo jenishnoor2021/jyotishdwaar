@@ -8,7 +8,7 @@ $tarots = Tarot::where('is_active', 1)->get();
 @foreach ($tarots as $tarot)
 <div class="col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="300">
     <div class="member d-flex align-items-start">
-        <div class="pic"><img src="{{ $tarot->file }}" class="img-fluid" alt="">
+        <div class="pic"><img src="{{ $tarot->file }}" class="img-fluid" alt="" loading="lazy">
         </div>
         <div class="member-info">
             <h4>{{ $tarot->name }}</h4>

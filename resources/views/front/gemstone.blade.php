@@ -8,54 +8,33 @@
         <div class="row gy-4">
 
             <div class="col-lg-12">
-                <img src="{{asset('front_assets/img/services/gemstone.jpg')}}" class="img-fluid" alt="" data-aos="zoom-in">
+                <img src="{{asset('front_assets/img/services/gemstone.jpg')}}" class="img-fluid" alt="" data-aos="zoom-in" loading="lazy">
             </div>
 
             <div class="col-lg-12">
-                <div class="portfolio-description">
-                    <h2>Gemstone</h2>
-                    <p>
-                        Gemstone in vedic astrology is truly fascinating. These beautiful stones are believed to hold
-                        special energy from the cosmos, and wearing them can potentially influence your life. However,
-                        to understand this power and choose the right stone for you, it's best to talk to a gemstone
-                        expert, someone who knows all about these stones and their energies.
-                    </p>
-                    <p>Pandit Subhash Mishra is a gemstone consultant in India who is known for his effective
-                        recommendations that show results within . With over 30 years of experience, he has established
-                        himself as a trusted advisor, guiding clients to harness the power of gemstones for personal
-                        growth, wealth, and success. As a skilled gemologist, Pandit Subhash Mishra tailors his advice
-                        to each individual's unique needs, ensuring they receive the most effective guidance for their
-                        life path.</p>
-                </div>
-            </div>
+    <div class="portfolio-description">
+        <h2>Gemstone</h2>
+        <p>
+            Gemstones in Vedic astrology are truly fascinating. These radiant stones are believed to carry cosmic energy and, when worn correctly, can influence various aspects of life. However, to fully understand their impact and select the right stone, it is essential to consult a knowledgeable gemstone expert who understands the science and energy behind each gem.
+        </p>
+        <p>
+            Pandit Subhash Mishra is one of India’s most respected gemstone consultants, known for his accurate recommendations and impactful results. With over 30 years of experience, he has earned a reputation for guiding individuals toward personal growth, success, and prosperity through gemstone consultation. As a seasoned gemologist, he customizes his guidance based on an individual’s unique astrological needs, ensuring the most effective outcomes.
+        </p>
+    </div>
+</div>
 
-            <div class="col-lg-12">
-                <div class="portfolio-description">
-                    <h4>The Science of Gemstones</h4>
-                    <ul>
-                        <li>The beauty and benefits of gemstones have captivated human attention for years now! Their
-                            dazzling colors and their power to alter the cosmic energies have given them a charm that
-                            cannot be undermined.
-                        </li>
-                        <li>Every gemstone has a unique combination of elements, these elements crystallize into
-                            intricate geometrical patterns, giving each gemstone its signature characteristics.
-                        </li>
-                        <li>However, the science of gemstones extends beyond mere aesthetics. Each gemstone carries
-                            within its core the power to change our lives. They emit energies that can protect us from
-                            harm, keep us away from negative thoughts, align us with our higher self and heal us
-                            inside-out.</li>
-                        <li>Owing to their mystical nature, the unique properties of gemstones have found myriad
-                            applications in modern life. With the help of a learned gemstone consultant in India, you
-                            can find the right gemstone for you and get the benefits that come with each gemstone based
-                            on your sign.</li>
-                        <li>As one of the best gemstone consultants in India, Pandit Subhash Mishra understands the
-                            profound impact gemstones can have on our lives. With his expertise in gemstone
-                            consultation, he has guided numerous individuals in choosing the right gemstones based on
-                            your unique needs and zodiac signs. Experience the transformative power of gemstones and
-                            unlock the hidden potential within you by consulting with Pandit Subhash Mishra today.</li>
-                    </ul>
-                </div>
-            </div>
+<div class="col-lg-12">
+    <div class="portfolio-description">
+        <h4>The Science of Gemstones</h4>
+        <ul>
+            <li>Gemstones have mesmerized humanity for centuries with their brilliance and energy-enhancing properties. Their vibrant colors and ability to harmonize cosmic forces make them truly special.</li>
+            <li>Each gemstone consists of specific elemental compositions that crystallize into unique geometric patterns, giving the stone its distinct characteristics and power.</li>
+            <li>Beyond their visual appeal, gemstones possess the potential to positively influence our lives. They emit subtle energies that can offer protection, uplift the mind, align spiritual balance, and promote healing from within.</li>
+            <li>Because of their energetic properties, gemstones are used in various aspects of modern life. With expert consultation, such as from a qualified gemstone advisor in India, you can identify the stone best suited to your astrological chart and life path.</li>
+            <li>Pandit Subhash Mishra, recognized as one of India’s finest gemstone consultants, deeply understands how gemstones interact with planetary energies. Through his expert advice, countless individuals have found clarity, protection, and transformation. Discover the power of the right gemstone tailored to your zodiac and personal goals by consulting with him today.</li>
+        </ul>
+    </div>
+</div>
 
             <div class="col-lg-12">
                 <div class="portfolio-description">
@@ -64,8 +43,7 @@
                         spiritual depth, compassion, and practical wisdom. This isn't just prediction — it's empowered
                         guidance that helps you live with awareness, balance, and trust in your journey.</p>
                     <div class="button">
-                        <a class="custom-button mt-4" href="#" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                        <a class="custom-button mt-4" href="tel:{{ $company_contact }}">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                 width="20px" height="20px" viewBox="0 0 15 15" version="1.1">
 
@@ -99,20 +77,21 @@
 </section><!-- End Portfolio Details Section -->
 
 <!-- ======= Team Section ======= -->
-<section id="astrologers" class="team section-bg">
-    <div class="container" data-aos="fade-up">
+<!--<section id="astrologers" class="team section-bg">-->
+<!--    <div class="container" data-aos="fade-up">-->
 
-        <div class="section-title">
-            <h2>Preferred Tarot Readers</h2>
+<!--        <div class="section-title">-->
+<!--            <h2>Preferred Tarot Readers</h2>-->
 
-        </div>
+<!--        </div>-->
 
-        <div class="row">
-            @include('front_includes.tarot')
-        </div>
+<!--        <div class="row">-->
+<!--            @include('front_includes.tarot')-->
+<!--        </div>-->
 
-    </div>
-</section><!-- End Team Section -->
+<!--    </div>-->
+<!--</section>-->
+<!-- End Team Section -->
 
 <!-- ======= Services Section ======= -->
 <section id="services" class="services section-bg">

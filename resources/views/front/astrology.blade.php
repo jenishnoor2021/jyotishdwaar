@@ -9,81 +9,54 @@
 
             <div class="col-lg-12">
                 <img src="{{ asset('front_assets/img/current-life-solution.jpg') }}" class="img-fluid" alt=""
-                    data-aos="zoom-in">
+                    data-aos="zoom-in" loading="lazy">
             </div>
 
             <div class="col-lg-12">
-                <div class="portfolio-description">
-                    <h2>Astrology</h2>
-                    <p>
-                        Astrology is a practice that establishes a connection between planetary events and human life.
-                        It is based on the idea that the positions and movements of celestial bodies, such as the stars,
-                        planets, and other celestial objects, can have an influence on human behavior, personality
-                        traits, and life events. Vedic astrology services are all about studying and analyzing the
-                        positions of these celestial bodies at the time of a person's birth. The study can help in
-                        interpreting their significance to make predictions and provide insights about various aspects
-                        of a person's life, including relationships, career, and personal growth.
-                    </p>
-                    <p>With nearly three decades of experience and over 100 awards to his name, Pandit Subhash Mishra is
-                        a trusted name in the field of astrology. His accurate and highly specific predictions have
-                        earned him a national reputation, making him one of the best in Vedic astrology in India. What
-                        sets him apart is his unique approach to offering readings based on Vedic astrology, combining
-                        multiple facets to provide precise predictions and effective results. You can expect quick
-                        results with his recommendations, which bring positive changes within a matter of days or weeks.
-                    </p>
-                    <p></p>
-                </div>
-            </div>
+    <div class="portfolio-description">
+        <h2>Astrology</h2>
+        <p>
+            Astrology is a time-honored science that explores the connection between celestial movements and human life. It is based on the belief that the positions and motions of planets, stars, and other celestial bodies influence our personality traits, behaviors, and life events. Vedic astrology involves analyzing these planetary alignments at the time of a person's birth to offer deep insights into different aspects of life, such as relationships, career, health, and spiritual growth.
+        </p>
+        <p>
+            With nearly 30 years of experience and more than 100 prestigious awards, Pandit Subhash Mishra is regarded as one of India's most respected astrologers. Known for his precise predictions and effective solutions, he has earned a reputation for delivering results that bring about positive changes in a short period. His mastery in Vedic astrology lies in blending multiple astrological principles to provide customized readings that are insightful, actionable, and transformative.
+        </p>
+    </div>
+</div>
 
-            <div class="col-lg-12">
-                <div class="portfolio-description">
-                    <h4>How Can Astrology Help?</h4>
-                    <ul>
-                        <li>Career guidance</li>
-                        <li>Marriage and relationship insights</li>
-                        <li>Energy balance and self-awareness</li>
-                        <li>Business growth and entrepreneurship assistance</li>
-                        <li>Decision-making</li>
-                    </ul>
-                </div>
-            </div>
+<div class="col-lg-12">
+    <div class="portfolio-description">
+        <h4>How Can Astrology Help?</h4>
+        <ul>
+            <li>Personalized career guidance</li>
+            <li>Marriage and relationship compatibility analysis</li>
+            <li>Emotional balance and self-discovery</li>
+            <li>Support in business decisions and entrepreneurship</li>
+            <li>Clarity in life decisions and major transitions</li>
+        </ul>
+    </div>
+</div>
 
-            <div class="col-lg-12">
-                <div class="portfolio-description">
-                    <h4>Benefits of Scientific Astrology</h4>
-                    <p>Scientific Astrology, with its empirical approach and data-driven methods, offers several
-                        distinct advantages that contribute to its appeal and practicality. Here are some key benefits
-                        of getting the Scientific Astrology readings from expert astrologer in India.</p>
-                    <ul>
-                        <li>
-                            <b>Accuracy and precision in predictions</b>
-                            By analyzing vast amounts of data and employing statistical techniques, astrologers strive
-                            to identify meaningful patterns and correlations. This focus on empirical analysis enhances
-                            the reliability of astrological predictions, providing individuals with valuable insights
-                            and guidance in various aspects of life, such as career choices, relationships, health, and
-                            personal development.
-                        </li>
-                        <li>
-                            <b>Practical applications in various fields</b>
-                            Scientific Astrology finds practical applications in various fields beyond personal
-                            guidance. It can be utilized in business and finance to make informed decisions regarding
-                            investments, market trends, and strategic planning.
-                        </li>
-                        <li>
-                            <b>Integration with modern technology</b>
-                            The integration of technology enables astrologers to handle vast amounts of data, refine
-                            astrological techniques, and provide more comprehensive and detailed insights to individuals
-                            seeking guidance.
-                        </li>
-                        <li>
-                            <b>Cross-cultural and cross-disciplinary potential</b>
-                            This cross-disciplinary approach encourages the exchange of ideas, fosters critical
-                            thinking, and promotes the exploration of the potential connections between celestial
-                            influences and various facets of human life.
-                        </li>
-                    </ul>
-                </div>
-            </div>
+<div class="col-lg-12">
+    <div class="portfolio-description">
+        <h4>Benefits of Scientific Astrology</h4>
+        <p>Scientific astrology adopts a structured, data-based approach that enhances the accuracy and reliability of predictions. Here are some key benefits of seeking scientific astrology readings from a trusted expert in India:</p>
+        <ul>
+            <li>
+                <b>Greater accuracy in predictions:</b> Through deep analysis of astrological charts using statistical and empirical methods, scientific astrology enables precise insights into career, health, relationships, and more.
+            </li>
+            <li>
+                <b>Wide practical applications:</b> From guiding personal decisions to aiding business strategy, scientific astrology can support areas such as investment, risk management, and professional growth.
+            </li>
+            <li>
+                <b>Technology-enhanced insights:</b> Modern software tools and algorithms allow astrologers to process complex calculations faster, resulting in more detailed and accurate forecasts.
+            </li>
+            <li>
+                <b>Interdisciplinary benefits:</b> Scientific astrology fosters connections with psychology, economics, and other disciplines, opening up new dimensions of understanding human life through celestial patterns.
+            </li>
+        </ul>
+    </div>
+</div>
 
             <div class="col-lg-12">
                 <div class="portfolio-description">
@@ -92,8 +65,7 @@
                         spiritual depth, compassion, and practical wisdom. This isn't just prediction — it's empowered
                         guidance that helps you live with awareness, balance, and trust in your journey.</p>
                     <div class="button">
-                        <a class="custom-button mt-4" href="#" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                        <a class="custom-button mt-4" href="tel:{{ $company_contact }}">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                 width="20px" height="20px" viewBox="0 0 15 15" version="1.1">
 
@@ -127,20 +99,21 @@
 </section><!-- End Portfolio Details Section -->
 
 <!-- ======= Team Section ======= -->
-<section id="astrologers" class="team section-bg">
-    <div class="container" data-aos="fade-up">
+<!--<section id="astrologers" class="team section-bg">-->
+<!--    <div class="container" data-aos="fade-up">-->
 
-        <div class="section-title">
-            <h2>Preferred Tarot Readers</h2>
+<!--        <div class="section-title">-->
+<!--            <h2>Preferred Tarot Readers</h2>-->
 
-        </div>
+<!--        </div>-->
 
-        <div class="row">
-            @include('front_includes.tarot')
-        </div>
+<!--        <div class="row">-->
+<!--            @include('front_includes.tarot')-->
+<!--        </div>-->
 
-    </div>
-</section><!-- End Team Section -->
+<!--    </div>-->
+<!--</section>-->
+<!-- End Team Section -->
 
 <!-- ======= Services Section ======= -->
 <section id="services" class="services section-bg">

@@ -43,6 +43,17 @@ Route::get('/astrology', [AdminController::class, 'astrology'])->name('site.astr
 Route::post('/contactstore', [AdminController::class, 'storeContact'])->name('storeContact');
 Route::post('/inquirystore', [AdminController::class, 'storeInquiry'])->name('storeInquiry');
 
+Route::get('/load-sections', function () {
+    $testomonial = \App\Models\Testomonial::all();
+    $faqs = \App\Models\Faq::all();
+
+    return view('sections.testimonials_faq', compact('testomonial', 'faqs'));
+});
+
+Route::get('/load-services', function () {
+    return view('sections.allservices');
+});
+
 //  for admin registration below comment uncomment karvi and above auth.login ne comment karvi
 // Route::get('/', function () {
 //     return view('welcome');

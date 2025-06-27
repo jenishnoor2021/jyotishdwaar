@@ -7,7 +7,7 @@
 
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-6 d-flex align-items-center justify-content-center about-img">
-                    <img src="{{ asset('front_assets/img/about.png') }}" class="img-fluid" alt="" data-aos="zoom-in">
+                    <img src="{{ asset('front_assets/img/about.png') }}" class="img-fluid" alt="" data-aos="zoom-in" loading="lazy">
                 </div>
                 <div class="col-lg-6 pt-5 pt-lg-0">
                     <h3 data-aos="fade-up">About Us</h3>
@@ -96,7 +96,7 @@
                         to illuminate your path.</p>
                 </div>
                 <div class="col-lg-3 cta-btn-container text-center">
-                    <a class="cta-btn align-middle" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <a class="cta-btn align-middle" href="tel:{{ $company_contact }}">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px"
                             height="20px" viewBox="0 0 15 15" version="1.1">
 

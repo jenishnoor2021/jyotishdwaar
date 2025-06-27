@@ -14,12 +14,11 @@
                 <h1>🌠 Illuminate Your Life Path with Jyotish Dwaar</h1>
                 <p>With years of experience in Vedic astrology, Jyotish Dwaar offers accurate predictions, kundli
                     analysis, and life-changing guidance tailored to your birth chart.</p>
-                <a href="javascript:void()" class="btn-chat-started" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal"> Whatsapp Us </a>
+                <a href="https://wa.me/+91{{ $company_contact }}" class="btn-chat-started"> Whatsapp Us </a>
             </div>
             <div class="col-lg-5 order-1 order-lg-2 hero-img">
                 <img src="{{ asset('front_assets/img/banner.png') }}" width="420" height="420"
-                    class="img-fluid spin" alt="">
+                    class="img-fluid spin" alt="" loading="lazy">
             </div>
         </div>
     </div>
@@ -54,7 +53,7 @@
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-6 d-flex align-items-center justify-content-center about-img">
                 <img src="{{ asset('front_assets/img/about.png') }}" class="img-fluid" alt=""
-                    data-aos="zoom-in">
+                    data-aos="zoom-in" loading="lazy">
             </div>
             <div class="col-lg-6 pt-5 pt-lg-0">
                 <h3 data-aos="fade-up">About Us</h3>
@@ -103,16 +102,13 @@
                 sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
-        <div class="row gy-4">
-            @include('front_includes.services.vastu')
-            @include('front_includes.services.gemstone')
-            @include('front_includes.services.matchmaking')
-            @include('front_includes.services.career')
-            @include('front_includes.services.astrology')
+        <div id="services-content">
+            <!-- Content will be loaded here -->
         </div>
 
     </div>
-</section><!-- End Services Section -->
+</section>
+<!-- End Services Section -->
 
 <!-- ======= Services Section ======= -->
 <section id="services" class="services services2">
@@ -131,8 +127,7 @@
                     to illuminate your path.</p>
             </div>
             <div class="col-lg-3 cta-btn-container text-center">
-                <a class="cta-btn align-middle" href="tel:{{ $company_contact }}" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">
+                <a class="cta-btn align-middle" href="tel:{{ $company_contact }}">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px"
                         height="20px" viewBox="0 0 15 15" version="1.1">
 
@@ -252,74 +247,9 @@
     </div>
 </section>
 
-<!-- ======= Testimonials Section ======= -->
-<section id="testimonials" class="testimonials section-bg">
-    <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-            <h2>Testimonials</h2>
-            <p>Our clients speak from the heart. From life-changing insights to accurate predictions, Jyotish Dwaar has
-                helped countless individuals find clarity and peace. Hear from those who have experienced the guidance
-                and wisdom first-hand.</p>
-        </div>
+<div id="dynamic-sections-placeholder"></div>
 
-        <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
-            <div class="swiper-wrapper">
-
-                @foreach ($testomonial as $test)
-                <div class="swiper-slide">
-                    <div class="testimonial-item">
-                        <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            {{ $test->message }}
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                        </p>
-                        <h3>{{ $test->name }}</h3>
-                        <h4>{{ $test->occupation }}</h4>
-                    </div>
-                </div>
-                @endforeach
-
-            </div>
-            <div class="swiper-pagination"></div>
-        </div>
-
-    </div>
-</section><!-- End Testimonials Section -->
-
-<section id="faq" class="faq">
-    <div class="container aos-init aos-animate" data-aos="fade-up">
-
-        <div class="section-title">
-            <h2 style="margin: 0;">Frequently Asked Questions</h2>
-        </div>
-
-        <div class="faq-list">
-            <ul>
-                @foreach ($faqs as $key => $faq)
-                @php
-                $delay = 100;
-                @endphp
-                <li data-aos="fade-up" data-aos-delay="{{ $delay }}" class="aos-init aos-animate">
-                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse"
-                        data-bs-target="#faq-list-{{ $key }}">{{ $faq->title }} <i
-                            class="bx bx-chevron-down icon-show"></i><i
-                            class="bx bx-chevron-up icon-close"></i></a>
-                    <div id="faq-list-{{ $key }}" class="collapse {{ $key == 0 ? 'show' : '' }}"
-                        data-bs-parent=".faq-list">
-                        <p>{{ $faq->body }}</p>
-                    </div>
-                </li>
-                @php
-                $delay += 100;
-                @endphp
-                @endforeach
-
-            </ul>
-        </div>
-
-    </div>
-</section>
 
 @include('front_includes.custom-marquee')
 @endsection
@@ -436,6 +366,43 @@
             }
         },
         "retina_detect": true
+    });
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    window.addEventListener('load', function() {
+        $.ajax({
+            url: '/load-sections',
+            type: 'GET',
+            success: function(html) {
+                $('#dynamic-sections-placeholder').html(html);
+
+                // Re-initialize AOS
+                AOS.init();
+
+                // Re-initialize Swiper
+                new Swiper('.testimonials-slider', {
+                    speed: 600,
+                    loop: true,
+                    autoplay: {
+                        delay: 5000,
+                        disableOnInteraction: false
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true
+                    }
+                });
+            }
+        });
+    });
+
+    window.addEventListener('load', function() {
+        fetch('/load-services')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('services-content').innerHTML = html;
+            });
     });
 </script>
 @endsection

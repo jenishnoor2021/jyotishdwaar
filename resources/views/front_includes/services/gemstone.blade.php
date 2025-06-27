@@ -2,14 +2,14 @@
     <div class="icon-box iconbox-purple">
         <a href="{{URL::to('/gemstone')}}">
             <div class="icon">
-                <img src="{{ asset('front_assets/img/services/gemstone.jpg') }}">
+                <img src="{{ asset('front_assets/img/services/gemstone.jpg') }}" loading="lazy">
             </div>
             <h4>Gemstone</h4>
             <p>Get personalized gemstone recommendations aligned with your birth chart to enhance your life.
             </p>
         </a>
         <div class="btn_group">
-            <a class="custom-button mt-4" href="tel:{{ $company_contact }}" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <a class="custom-button mt-4" href="tel:{{ $company_contact }}">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px"
                     height="20px" viewBox="0 0 15 15" version="1.1">
 
@@ -32,8 +32,7 @@
                 </svg>
                 Call Us
             </a>
-            <a class="custom-button mt-4" href="https://wa.me/+91{{ $company_contact }}" data-bs-toggle="modal"
-                data-bs-target="#exampleModal">
+            <a class="custom-button mt-4" href="https://wa.me/+91{{ $company_contact }}">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px"
                     height="20px" viewBox="0 0 20 20" version="1.1">
 

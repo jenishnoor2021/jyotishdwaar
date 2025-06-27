@@ -8,70 +8,55 @@
         <div class="row gy-4">
 
             <div class="col-lg-12">
-                <img src="{{asset('front_assets/img/services/carrer.jpg')}}" class="img-fluid" alt="" data-aos="zoom-in">
+                <img src="{{asset('front_assets/img/services/carrer.jpg')}}" class="img-fluid" alt="" data-aos="zoom-in" loading="lazy">
             </div>
 
             <div class="col-lg-12">
-                <div class="portfolio-description">
-                    <h2>Career</h2>
-                    <p>
-                        Selecting the right career is a process that involves self-reflection, research, professional
-                        guidance, and practical experience. Reflect on your interests, strengths, and values to identify
-                        what brings you joy and aligns with your passions. Explore different career options and
-                        industries, seeking guidance from career counsellors or mentors who can provide valuable
-                        insights.
-                    </p>
-                    <p>Additionally, consulting the best astrologer in India for career guidance to analyse your birth
-                        chart for career indications can offer another perspective. Gain practical experience through
-                        internships or volunteering to better understand your preferences. Stay open-minded,
-                        continuously learn, and adapt your career path as needed.</p>
-                    <p>As the best astrologer for astrological career guidance, Pandit Subhash Mishra can help you
-                        choose the right career guidance through astrology to make your future brighter. With 30+ years
-                        of practice and helping numerous individuals, he has developed a deep understanding of the
-                        intricacies of making informed career decisions.</p>
-                </div>
-            </div>
+    <div class="portfolio-description">
+        <h2>Career</h2>
+        <p>
+            Choosing the right career is a journey that involves self-reflection, research, professional advice, and hands-on experience. Start by identifying your interests, strengths, and values to understand what excites and motivates you. Explore various career paths, industries, and seek guidance from mentors or career counselors who can offer valuable insights.
+        </p>
+        <p>
+            Additionally, consulting the best astrologer in India for career-related astrological analysis can provide a unique perspective. Your birth chart can reveal career inclinations, potential challenges, and areas of success. Gaining practical experience through internships, freelancing, or volunteering can help refine your choices. Remain adaptable, continue learning, and evolve your career path as you grow.
+        </p>
+        <p>
+            As a highly respected astrologer with over 30 years of experience, Pandit Subhash Mishra offers trusted astrological career guidance. He has helped countless individuals make informed career decisions by interpreting planetary influences and aligning career choices with their strengths and aspirations.
+        </p>
+    </div>
+</div>
 
-            <div class="col-lg-12">
-                <div class="portfolio-description">
-                    <h4>Can astrology help me choose the right Career?</h4>
-                    <p>When it comes to picking the right career, astrology can offer direction and insight. An expert
-                        astrologer in India can determine the planetary placements and aspects that are pertinent to
-                        your job potential by examining your birth chart. They can make recommendations for viable job
-                        paths after evaluating your talents, limitations, interests, and probable difficulties.</p>
-                    <p>But it's crucial to remember that astrology is just one of many resources to take into account
-                        while choosing a career. Instead of serving as the only factor, it should be used as a
-                        complementary guidance. The right career should be chosen based on your interests, abilities,
-                        values, practical considerations, and professional advice.</p>
-                    <p>Ultimately, combining astrology with self-reflection, research, and practical experience is
-                        important to make an informed decision about your career path.</p>
-                </div>
-            </div>
+<div class="col-lg-12">
+    <div class="portfolio-description">
+        <h4>Can Astrology Help Me Choose the Right Career?</h4>
+        <p>
+            Astrology can provide insightful direction when choosing a career path. By analyzing your birth chart, an experienced astrologer in India can identify planetary positions and aspects that influence your professional potential. This includes understanding your strengths, challenges, natural inclinations, and areas where you are most likely to succeed.
+        </p>
+        <p>
+            However, astrology should be used as a complementary tool—not the sole deciding factor. A balanced career decision considers interests, skills, values, education, and real-world experience. Astrology adds depth and guidance to this holistic decision-making process.
+        </p>
+        <p>
+            Combining astrological insights with personal reflection, research, and practical exposure leads to a well-informed and fulfilling career path.
+        </p>
+    </div>
+</div>
 
-            <div class="col-lg-12">
-                <div class="portfolio-description">
-                    <h4>Can we select a profession based on a zodiac sign?</h4>
-                    <ul>
-                        <li>
-                            While a person's zodiac sign can reveal some basic traits and tendencies about them, picking
-                            a career exclusively based on this information is not advised. Zodiac signs are only one
-                            part of astrology, and choosing a career shouldn't be solely based on this information.
-                        </li>
-                        <li>
-                            A variety of elements, such as one's interests, abilities, values, and aptitudes, as well as
-                            one's education, experience, and practical considerations, must be considered while choosing
-                            a vocation. It is crucial to evaluate your individual abilities, talents, and passions and
-                            match them with opportunities and requirements within various professions.
-                        </li>
-                        <li>
-                            However, astrological career guidance can offer valuable insights into an individual's
-                            personality traits, strengths, and potential career paths. By analysing the birth chart as a
-                            whole, including the placement of planets, houses, and aspects, an astrologer can guide
-                            potential career paths that may be well-suited to an individual's unique attributes.
-                        </li>
-                    </ul>
-                </div>
-            </div>
+<div class="col-lg-12">
+    <div class="portfolio-description">
+        <h4>Can We Select a Profession Based on a Zodiac Sign?</h4>
+        <ul>
+            <li>
+                While a zodiac sign can highlight general personality traits and tendencies, choosing a career solely based on it is not advisable. Astrology is a complex science, and the zodiac sign represents just one component of your astrological profile.
+            </li>
+            <li>
+                Choosing the right profession requires evaluating multiple factors, including your skills, interests, education, and goals. It’s important to align your unique talents and passions with the practical demands and opportunities of various fields.
+            </li>
+            <li>
+                However, an astrologer can analyze your complete birth chart — including planetary positions, house placements, and aspects — to recommend career directions best suited to your unique nature. Astrological guidance, when paired with introspection and real-world experience, can help you thrive in a career that resonates with who you truly are.
+            </li>
+        </ul>
+    </div>
+</div>
 
             <div class="col-lg-12">
                 <div class="portfolio-description">
@@ -80,8 +65,7 @@
                         spiritual depth, compassion, and practical wisdom. This isn't just prediction — it's empowered
                         guidance that helps you live with awareness, balance, and trust in your journey.</p>
                     <div class="button">
-                        <a class="custom-button mt-4" href="#" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                        <a class="custom-button mt-4" href="tel:{{ $company_contact }}">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                 width="20px" height="20px" viewBox="0 0 15 15" version="1.1">
 
@@ -115,20 +99,21 @@
 </section><!-- End Portfolio Details Section -->
 
 <!-- ======= Team Section ======= -->
-<section id="astrologers" class="team section-bg">
-    <div class="container" data-aos="fade-up">
+<!--<section id="astrologers" class="team section-bg">-->
+<!--    <div class="container" data-aos="fade-up">-->
 
-        <div class="section-title">
-            <h2>Preferred Tarot Readers</h2>
+<!--        <div class="section-title">-->
+<!--            <h2>Preferred Tarot Readers</h2>-->
 
-        </div>
+<!--        </div>-->
 
-        <div class="row">
-            @include('front_includes.tarot')
-        </div>
+<!--        <div class="row">-->
+<!--            @include('front_includes.tarot')-->
+<!--        </div>-->
 
-    </div>
-</section><!-- End Team Section -->
+<!--    </div>-->
+<!--</section>-->
+<!-- End Team Section -->
 
 <!-- ======= Services Section ======= -->
 <section id="services" class="services section-bg">

@@ -27,12 +27,12 @@
                 </a>
             </li>
 
-            <li>
-                <a href="/admin/tarot" class="waves-effect">
-                    <i class="bx bx-home-circle"></i>
-                    <span key="t-chat">Tarot</span>
-                </a>
-            </li>
+            <!--<li>-->
+            <!--    <a href="/admin/tarot" class="waves-effect">-->
+            <!--        <i class="bx bx-home-circle"></i>-->
+            <!--        <span key="t-chat">Tarot</span>-->
+            <!--    </a>-->
+            <!--</li>-->
 
             <li>
                 <a href="/admin/faq" class="waves-effect">

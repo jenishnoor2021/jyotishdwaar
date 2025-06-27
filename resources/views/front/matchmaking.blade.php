@@ -8,53 +8,46 @@
         <div class="row gy-4">
 
             <div class="col-lg-12">
-                <img src="{{asset('front_assets/img/services/matchmaking.jpg')}}" class="img-fluid" alt="" data-aos="zoom-in">
+                <img src="{{asset('front_assets/img/services/matchmaking.jpg')}}" class="img-fluid" alt="" data-aos="zoom-in" loading="lazy">
             </div>
 
             <div class="col-lg-12">
-                <div class="portfolio-description">
-                    <h2>Matchmaking</h2>
-                    <p>
-                        Matchmaking astrology involves assessing the compatibility and suitability of potential matches
-                        based on various factors such as shared interests, values, goals, and personal characteristics.
-                    </p>
-                    <p>Matchmaking can be done through various means, including traditional methods such as family or
-                        community referrals, professional matchmakers, online dating platforms, or algorithm-based
-                        dating apps. The goal is to connect individuals who have a higher likelihood of building a
-                        successful and fulfilling relationship based on their compatibility and shared interests.</p>
-                    <p>The aim of Matchmaking through a famous astrologer in India is to increase the chances of finding
-                        a compatible partner or connection by leveraging aspects of zodiac signs, the characteristics
-                        based on the birth time, and the expertise of an astrologer.</p>
-                    <p>With years of experience in the field, Pandit Subhash Mishra has established himself as an expert
-                        in the art of Matchmaking. This extensive experience has endowed him with a wealth of knowledge
-                        and proficiency in various aspects of Matchmaking. Pandit Subhash Mishra expertise in astrology,
-                        including a deep understanding of birth charts, planetary positions, and astrological
-                        principles, plays a pivotal role in his ability to facilitate successful matches.</p>
-                </div>
-            </div>
+    <div class="portfolio-description">
+        <h2>Matchmaking</h2>
+        <p>
+            Matchmaking astrology involves analyzing the compatibility between two individuals based on various astrological and personality-based factors, such as shared values, life goals, interests, and emotional traits.
+        </p>
+        <p>
+            Matchmaking can be approached through different methods — from traditional family or community recommendations to professional matchmakers, online platforms, or modern algorithm-based dating apps. The ultimate goal is to align individuals with partners who have a higher probability of forming a successful and harmonious relationship.
+        </p>
+        <p>
+            Astrological matchmaking, especially with the guidance of a renowned astrologer in India, enhances this process by evaluating compatibility using zodiac signs, planetary influences, and birth charts. It helps uncover deeper emotional, spiritual, and energetic alignment.
+        </p>
+        <p>
+            With decades of experience, Pandit Subhash Mishra has become a trusted authority in matchmaking astrology. His deep knowledge of Vedic astrology, including expertise in birth charts, planetary positions, and astrological principles, allows him to provide highly personalized and insightful match recommendations that increase the chances of a fulfilling partnership.
+        </p>
+    </div>
+</div>
 
-            <div class="col-lg-12">
-                <div class="portfolio-description">
-                    <h4>What Is Guna Milan In Match making?</h4>
-                    <ul>
-                        <li>Guna Milan focuses on comparing the qualities or Gunas of the prospective partners based on
-                            their respective birth charts. In Guna Milan, the position of the Moon at the time of birth
-                            plays a central role. The Moon represents emotions, feelings, and the mind, and its
-                            placement determines the specific qualities or Gunas associated with each individual.</li>
-                        <li>There are eight main Gunas considered in the process of Guna Milan. These Gunas include
-                            Varna (spiritual compatibility), Vashya (dominance), Tara (compatibility in destiny), Yoni
-                            (sexual compatibility), Graha Maitri (mental compatibility), Gana (temperament
-                            compatibility), Bhakoot (compatibility related to health and longevity), and Nadi
-                            (compatibility related to physical and genetic health).</li>
-                        <li>Each Guna is assigned a specific weightage or points, and the total score obtained by
-                            comparing the Gunas of the partners is calculated. A higher score indicates better
-                            compatibility between the individuals.</li>
-                        <li>Matchmaking through the best astrologer in India can provide insights into areas of
-                            compatibility, potential challenges, and overall harmony in aspects such as personality,
-                            emotional bonding, family life, career, and health.</li>
-                    </ul>
-                </div>
-            </div>
+<div class="col-lg-12">
+    <div class="portfolio-description">
+        <h4>What Is Guna Milan in Matchmaking?</h4>
+        <ul>
+            <li>
+                Guna Milan is a system used in Vedic astrology to assess the compatibility between prospective partners by comparing their respective birth charts. It primarily focuses on the position of the Moon at the time of birth, as the Moon governs emotions and mental states.
+            </li>
+            <li>
+                The Guna Milan method considers eight key factors (Gunas): Varna (spiritual compatibility), Vashya (influence or dominance), Tara (destiny alignment), Yoni (sexual compatibility), Graha Maitri (mental harmony), Gana (temperament compatibility), Bhakoot (health and family welfare), and Nadi (genetic and physical compatibility).
+            </li>
+            <li>
+                Each Guna is assigned a score, and the total score helps determine the compatibility level. A higher Guna score suggests stronger alignment between the couple.
+            </li>
+            <li>
+                Consulting an experienced astrologer like Pandit Subhash Mishra for matchmaking provides clarity in emotional, physical, and spiritual aspects, offering insights into long-term relationship harmony, family life, career alignment, and overall well-being.
+            </li>
+        </ul>
+    </div>
+</div>
 
             <div class="col-lg-12">
                 <div class="portfolio-description">
@@ -63,8 +56,7 @@
                         spiritual depth, compassion, and practical wisdom. This isn't just prediction — it's empowered
                         guidance that helps you live with awareness, balance, and trust in your journey.</p>
                     <div class="button">
-                        <a class="custom-button mt-4" href="#" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                        <a class="custom-button mt-4" href="tel:{{ $company_contact }}">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                 width="20px" height="20px" viewBox="0 0 15 15" version="1.1">
 
@@ -98,20 +90,21 @@
 </section><!-- End Portfolio Details Section -->
 
 <!-- ======= Team Section ======= -->
-<section id="astrologers" class="team section-bg">
-    <div class="container" data-aos="fade-up">
+<!--<section id="astrologers" class="team section-bg">-->
+<!--    <div class="container" data-aos="fade-up">-->
 
-        <div class="section-title">
-            <h2>Preferred Tarot Readers</h2>
+<!--        <div class="section-title">-->
+<!--            <h2>Preferred Tarot Readers</h2>-->
 
-        </div>
+<!--        </div>-->
 
-        <div class="row">
-            @include('front_includes.tarot')
-        </div>
+<!--        <div class="row">-->
+<!--            @include('front_includes.tarot')-->
+<!--        </div>-->
 
-    </div>
-</section><!-- End Team Section -->
+<!--    </div>-->
+<!--</section>-->
+<!-- End Team Section -->
 
 <!-- ======= Services Section ======= -->
 <section id="services" class="services section-bg">

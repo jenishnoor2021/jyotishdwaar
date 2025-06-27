@@ -8,101 +8,76 @@
         <div class="row gy-4">
 
             <div class="col-lg-12">
-                <img src="{{asset('front_assets/img/services/vastu.jpg')}}" class="img-fluid" alt="" data-aos="zoom-in">
+                <img src="{{asset('front_assets/img/services/vastu.jpg')}}" class="img-fluid" alt="" data-aos="zoom-in" loading="lazy">
             </div>
 
             <div class="col-lg-12">
-                <div class="portfolio-description">
-                    <h2>Vastu</h2>
-                    <p>
-                        Are living in an era where everyone toils hard all day to earn a roof over their heads. People
-                        live in multi-story buildings where every apartment is built in a different direction. An
-                        important question that arises in such a situation is – how to live peacefully in a house that
-                        is not at all Vastu-compliant? In a world where the price of properties is touching the sky, is
-                        it possible for a person to buy a Vastu-compliant home?
-                    </p>
-                    <p>According to Vastu, a home is a ‘living thing’ that is either full of energies or is lacking one.
-                        We make a lot of efforts to enhance the energy of our body but fail to enrich the energies of
-                        the surrounding of which we all are a part. There is a co-relation between the energy of a
-                        person and the energy of a house. We often consider a house unlucky if we experience financial,
-                        health or relationship problems while living in it.</p>
-                </div>
-            </div>
+    <div class="portfolio-description">
+        <h2>Vastu</h2>
+        <p>
+            We live in a time where people work tirelessly just to secure a home. In modern multi-storey buildings, apartments often face different directions. This raises an important question: how can one live peacefully in a home that doesn’t comply with Vastu principles? With soaring property prices, is it even possible to afford a Vastu-compliant house?
+        </p>
+        <p>
+            According to Vastu Shastra, a home is a living entity filled with energies — or lacking them. While we focus a lot on boosting our personal energy, we often neglect the energy of the spaces we inhabit. There’s a deep connection between the energy of an individual and their home. We tend to label a house as “unlucky” when we face issues related to health, finance, or relationships while living there.
+        </p>
+    </div>
+</div>
 
-            <div class="col-lg-12">
-                <div class="portfolio-description">
-                    <p><strong>How to balance the energies of a house?</strong> Do not worry if your house is not Vastu
-                        compliant. Follow the below steps to balance out any imbalance in the energies of the house:</p>
-                    <ul>
-                        <li><strong>De-clutter your house – </strong> It is impossible to solve a problem if we do not
-                            know the cause of it. First of all, it is important that you must identify the space that is
-                            spreading negativity in your house. Look out for all the dirty,
-                            dark and heavily loaded areas. De-clutter the spaces as positive energies only walk into the
-                            homes that are clean and beautiful. Keep your house the way you keep yourself.</li>
-                        <li><strong>Choose the right colors – </strong> Do you know that problems come up in a house if
-                            there is too much use of a color or if there is a deficiency of it in the house? Check the
-                            presence of rainbow colors – VIBGYOR. In Vastu Shastra, every direction
-                            has a corresponding color. If one applies the colors appropriately, the positive energies
-                            get enhanced. For example –</li>
-                    </ul>
-                </div>
-            </div>
+<div class="col-lg-12">
+    <div class="portfolio-description">
+        <p><strong>How to balance the energies of your home?</strong> Don’t worry if your home isn’t Vastu-compliant. You can restore balance by following these simple steps:</p>
+        <ul>
+            <li><strong>Declutter your space –</strong> You can’t resolve a problem without identifying its source. Start by locating areas that feel heavy, dark, or disorganized — these often block positive energy. Clean, well-maintained homes are more likely to attract positive vibrations. Treat your house with the same care as your own body.</li>
+            <li><strong>Use the right colors –</strong> An imbalance or overuse of certain colors can cause disturbances. Each direction in Vastu corresponds to a specific color. Incorporating the VIBGYOR color palette thoughtfully can improve energy flow. For example:</li>
+        </ul>
+    </div>
+</div>
 
-            <div class="col-lg-12">
-                <div class="portfolio-description">
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td><strong>North</strong></td>
-                                <td><strong>Green</strong></td>
-                            </tr>
-                            <tr>
-                                <td>North East</td>
-                                <td>Yellow</td>
-                            </tr>
-                            <tr>
-                                <td>West</td>
-                                <td>Violet</td>
-                            </tr>
-                            <tr>
-                                <td>South</td>
-                                <td>Yellow</td>
-                            </tr>
-                            <tr>
-                                <td>South East</td>
-                                <td>Blue, Indigo</td>
-                            </tr>
-                            <tr>
-                                <td>East</td>
-                                <td>Red, Orange</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+<div class="col-lg-12">
+    <div class="portfolio-description">
+        <table>
+            <tbody>
+                <tr>
+                    <td><strong>North</strong></td>
+                    <td><strong>Green</strong></td>
+                </tr>
+                <tr>
+                    <td>North East</td>
+                    <td>Yellow</td>
+                </tr>
+                <tr>
+                    <td>West</td>
+                    <td>Violet</td>
+                </tr>
+                <tr>
+                    <td>South</td>
+                    <td>Yellow</td>
+                </tr>
+                <tr>
+                    <td>South East</td>
+                    <td>Blue, Indigo</td>
+                </tr>
+                <tr>
+                    <td>East</td>
+                    <td>Red, Orange</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
 
-            <div class="col-lg-12">
-                <div class="portfolio-description">
-                    <ul>
-                        <li><strong>Let air and light enter in the house – </strong> Air and Sun are necessary and
-                            naturals energies. It is important that a house must be well-lit and well-ventilated. Light
-                            coloured curtains must be used in the house. Always open the windows
-                            in the morning, so that the sunlight can touch every corner of the house.</li>
-                        <li><strong>Perform Yagya – </strong> Yagyas hold a lot of importance in Hinduism as they make
-                            the environment of a house pious. If you feel that there are negative vibes in the house,
-                            then perform a Yagya so that any form of unwanted energy can be removed
-                            from the house. Also, light a lamp during the evening in the house. This protects a house
-                            from the evil eyes.</li>
-                        <li><strong>Meditate and balance your Chakras – </strong> Our body has seven main chakras that
-                            can be balanced through meditation, pranayama, mantra chanting and therapies. Problems
-                            related to health and mind can be cured if the chakras of the human are
-                            balanced.</li>
-                    </ul>
-                    <p>No matter how big or small any house is, it is always possible to make it Vastu-compliant. The
-                        negative effect of any ‘Vastu dosh’ can be nullified if a person maintains a healthy environment
-                        in the house.</p>
-                </div>
-            </div>
+<div class="col-lg-12">
+    <div class="portfolio-description">
+        <ul>
+            <li><strong>Let air and light in –</strong> Natural elements like sunlight and fresh air are vital energy sources. Keep your home well-lit and ventilated. Use light-colored curtains and open windows each morning to let sunlight reach every corner.</li>
+            <li><strong>Perform Yagya –</strong> Yagyas are sacred rituals in Hinduism known to purify the environment. If your home feels heavy or negative, a Yagya can cleanse the space. Lighting a lamp each evening also helps protect against negative energies.</li>
+            <li><strong>Meditate and balance your Chakras –</strong> The human body has seven main chakras that govern our well-being. Regular meditation, pranayama, and mantra chanting can align these chakras and bring balance to your health and mind.</li>
+        </ul>
+        <p>
+            No matter the size of your home, it can be transformed into a Vastu-friendly space. With mindful living and a balanced environment, the effects of any Vastu Dosh can be neutralized.
+        </p>
+    </div>
+</div>
 
             <div class="col-lg-12">
                 <div class="portfolio-description">
@@ -111,8 +86,7 @@
                         spiritual depth, compassion, and practical wisdom. This isn't just prediction — it's empowered
                         guidance that helps you live with awareness, balance, and trust in your journey.</p>
                     <div class="button">
-                        <a class="custom-button mt-4" href="#" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                        <a class="custom-button mt-4" href="tel:{{ $company_contact }}">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                 width="20px" height="20px" viewBox="0 0 15 15" version="1.1">
 
